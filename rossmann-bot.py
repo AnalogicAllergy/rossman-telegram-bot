@@ -14,6 +14,7 @@ message = 'https://api.telegram.org/bot1530461455:AAE_yelQhh4EiZ3s90eqg__aysuEOs
 
 # webhook
 url_webhook = 'https://api.telegram.org/bot1530461455:AAE_yelQhh4EiZ3s90eqg__aysuEOsVgD10/setWebhook?url=analogicallergy-dc19a9df.localhost.run'
+heroku_webhook = 'https://api.telegram.org/bot1530461455:AAE_yelQhh4EiZ3s90eqg__aysuEOsVgD10/setWebhook?url= https://rossmann-bot-analogic.herokuapp.com'
 
 
 def send_message(chat_id, text):
@@ -106,5 +107,5 @@ def index():
 
 
 if __name__ == '__main__':
-    port = os.environ.get('PORT',5000)
+    port = os.environ.get('PORT', 5000)
     app.run(host='0.0.0.0', port=port)
