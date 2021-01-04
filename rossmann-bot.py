@@ -73,7 +73,7 @@ def parse_message(message):
     return chat_id, store_id
 
 
-# API initialization
+# API initialization on new
 app = Flask(__name__)
 
 
